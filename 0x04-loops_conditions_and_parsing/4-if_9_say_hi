@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+# Displays Hi befor the last "Best School"
+
+i=0
+
+while ((i < 10))
+
+do
+  echo "Best School"
+  ((i++))
+
+  if ((i == 8))
+  then
+    echo "Hi"
+    continue
+  fi
+done
