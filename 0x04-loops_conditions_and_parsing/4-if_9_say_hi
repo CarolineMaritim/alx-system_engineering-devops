@@ -13,6 +13,5 @@ do
   if ((i == 8))
   then
     echo "Hi"
-    continue
   fi
 done
