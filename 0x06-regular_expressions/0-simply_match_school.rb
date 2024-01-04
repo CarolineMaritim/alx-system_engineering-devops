@@ -1,3 +1,2 @@
 #!/usr/bin/env ruby
-word = /School/
-puts ARGV[0].match(word).join
+puts ARGV[0].scan(/School/).join
