@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 word = /School/
-puts ARGV[0].match(word)
+puts ARGV[0].match(word).join
